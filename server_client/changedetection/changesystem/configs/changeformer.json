@@ -1,0 +1,11 @@
+{
+    "gpu_ids": "-1",
+    "print_models": false,
+    "checkpoints_root": "checkpoints_CDD-Dataset",
+    "checkpoint_dir": "changedetection/changesystem/modelsLinks/ChangeFormer/checkpoints_S2Looking",
+    "num_workers": 8,
+    "n_class": 2,
+    "embed_dim": 256,
+    "net_G": "ChangeFormerV6",
+    "checkpoint_name": "best_ckpt.pt"
+}

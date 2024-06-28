@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/changedetectiondb" >
+        <file>s.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,7 @@
+{
+    "config": "./modelsLinks/ChangerEx/configs/changer/changer_ex_r18_512x512_40k_levircd.py",
+    "checkpoint": "./modelsLinks/ChangerEx/changerEx_weights/open_cd_checkpoints/ChangerEx/CDD_256_ABBA/best_mIoU_iter_12000.pth",
+    "launcher": "none",
+    "tta": false,
+    "local_rank": 0
+}

@@ -1,0 +1,11 @@
+{
+    "gpu_ids": "-1",
+    "print_models": false,
+    "checkpoints_root": "chckpt_second",
+    "checkpoint_dir": "changedetection/changesystem/modelsLinks/BIT/checkpoints_CDD-Dataset",
+    "num_workers": 8,
+    "n_class": 2,
+    "embed_dim": 256,
+    "net_G": "base_transformer_pos_s4_dd8",
+    "checkpoint_name": "best_ckpt.pt"
+}

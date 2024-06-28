@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/ServerDataBaseConnection" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

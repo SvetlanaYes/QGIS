@@ -1,0 +1,64 @@
+{
+  "datasets": {
+    "LEVIR_CD_dataset": "/home/tatev/Documents/datasets/LEVIR",
+    "SECOND": "/home/tatev/Documents/paper_datasets/data_512",
+    "CDD": "/home/tatev/Documents/datasets/CDD-Dataset/Real/subset",
+    "S2Looking": "../datasets/S2Looking/",
+    "SYSU_CD": "/home/tatev/Documents/datasets/SYSU/",
+    "Azatazen": "../datasets/Azatazen/",
+    "google_earth_pro": "../datasets/google_earth_pro2_256/",
+    "AUB": "changedetection/changesystem/AUB"
+  },
+  "MODELS": [
+    "ChangeFormer"
+  ],
+  "METHODS": [
+    "Crop"
+  ],
+  "METRICS": [
+    "IoU",
+    "Precision",
+    "Recall",
+    "F1score"
+  ],
+  "data_name": "AUB",
+  "batch_size": 1,
+  "img_shape": {
+    "LEVIR_CD_dataset": [
+      1024,
+      1024
+    ],
+    "SECOND": [
+      512,
+      512
+    ],
+    "CDD": [
+      256,
+      256
+    ],
+    "S2Looking": [
+      1024,
+      1024
+    ],
+    "SYSU_CD": [
+      256,
+      256
+    ],
+    "AUB": [
+      807,
+      750
+    ]
+  },
+  "window_size": 256,
+  "stride": 64,
+  "sigma": 100,
+  "first_image_dir": "A",
+  "second_image_dir": "B",
+  "label_dir": "label",
+  "split": "test",
+  "image_names_dir": "list",
+  "label_transform": "norm",
+  "results_dir": "changedetection/changesystem/output",
+  "metrics_filename": "final_metrics",
+  "infer_time_filename": "inference_time"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/changesystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/changesystem/modelsLinks/BIT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/changesystem/modelsLinks/ChangeFormer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/changesystem/modelsLinks/ChangerEx" vcs="Git" />
+  </component>
+</project>

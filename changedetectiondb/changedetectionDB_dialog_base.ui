@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>changedetectionDBDialogBase</class>
+ <widget class="QDialog" name="changedetectionDBDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>506</width>
+    <height>316</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>changedetectionDB</string>
+  </property>
+  <widget class="QDialogButtonBox" name="OK">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>280</y>
+     <width>166</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="map1_name">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>10</y>
+     <width>142</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="Resize">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>134</y>
+     <width>69</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Resize</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">method_group</string>
+   </attribute>
+  </widget>
+  <widget class="QRadioButton" name="Crop">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>163</y>
+     <width>58</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Crop</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">method_group</string>
+   </attribute>
+  </widget>
+  <widget class="QRadioButton" name="SlidingWindowAverage">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>192</y>
+     <width>183</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SlidingWindowAverage</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">method_group</string>
+   </attribute>
+  </widget>
+  <widget class="QLabel" name="map1">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>42</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Map1 </string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="ChangeFormer">
+   <property name="geometry">
+    <rect>
+     <x>261</x>
+     <y>163</y>
+     <width>126</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ChangeFormer</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">model_group</string>
+   </attribute>
+  </widget>
+  <widget class="QLabel" name="choose_method">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>111</y>
+     <width>108</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose Method</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="map2_name">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>142</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="output_folder">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>142</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="map2">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>40</y>
+     <width>42</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Map2 </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="output">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>71</y>
+     <width>50</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Output</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="bit">
+   <property name="geometry">
+    <rect>
+     <x>261</x>
+     <y>134</y>
+     <width>49</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BIT</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">model_group</string>
+   </attribute>
+  </widget>
+  <widget class="QLabel" name="choose_model">
+   <property name="geometry">
+    <rect>
+     <x>261</x>
+     <y>111</y>
+     <width>98</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose Model</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="save_result">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>230</y>
+     <width>191</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save result to DB</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="model_group"/>
+  <buttongroup name="method_group"/>
+ </buttongroups>
+</ui>
